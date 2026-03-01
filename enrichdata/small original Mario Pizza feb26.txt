@@ -1,0 +1,152 @@
+MARIO’S PIZZA
+
+123 Main Street, Toronto, ON M4K 1A1
+Phone: (416) 555-0199
+
+1. Company Overview
+1.1 Business Description
+
+1.1.1 Mario’s Pizza is a locally owned quick-service restaurant located in Toronto, Ontario.
+
+1.1.2 The business specializes in freshly prepared pizzas, sides, and beverages available for delivery and pickup.
+
+1.1.3 The restaurant serves customers within a 10 km radius of its physical location.
+
+1.1.4 Mario’s Pizza focuses on affordability, quick preparation times, and customizable menu options suitable for individuals and families.
+
+2. Operating Hours
+2.1 Regular Business Hours
+
+2.1.1 Monday – Thursday: 11:00 AM – 10:00 PM
+
+2.1.2 Friday – Saturday: 11:00 AM – 11:00 PM
+
+2.1.3 Sunday: 12:00 PM – 9:00 PM
+
+2.2 Holiday Schedule
+
+2.2.1 Closed on Christmas Day.
+
+2.2.2 Closed on New Year’s Day.
+
+2.2.3 All other holidays: 12:00 PM – 8:00 PM.
+
+3. Menu Offerings
+3.1 Build-Your-Own Pizza
+3.1.1 Sizes and Base Prices
+
+3.1.1.1 Small (10 inch) – $9.99
+
+3.1.1.2 Medium (12 inch) – $12.99
+
+
+3.1.2 Crust Options
+
+3.1.2.1 Regular Crust – Included
+3.1.2.2 Stuffed Crust – Additional $2.00
+
+3.1.3 Toppings (Each $1.50)
+
+3.1.3.1 Pepperoni
+
+3.1.3.2 Mushrooms
+
+3.1.3.3 Green Peppers
+
+
+
+3.2 Specialty Pizzas
+3.2.1 Margherita
+
+3.2.1.1 Ingredients: Tomato, mozzarella, basil.
+
+3.2.1.2 Small – $11.99
+
+3.2.1.3 Medium – $14.99
+
+
+
+3.2.2 BBQ Chicken
+
+3.2.2.1 Ingredients: BBQ sauce, chicken, red onion.
+
+3.2.2.2 Small – $12.99
+
+3.2.2.3 Medium – $15.99
+
+
+3.2.3 Veggie Supreme
+
+3.2.3.1 Ingredients: Peppers, mushrooms, onions, olives, tomatoes.
+
+3.2.3.2 Small – $11.99
+
+3.2.3.3 Medium – $14.99
+
+
+
+3.2.4 Meat Lovers
+
+3.2.4.1 Ingredients: Pepperoni, sausage, bacon, ham.
+
+3.2.4.2 Small – $13.99
+
+3.2.4.3 Medium – $16.99
+
+
+
+3.3 Sides
+
+3.3.1 Garlic Bread – $4.99
+
+3.3.2 Garlic Bread with Cheese – $5.99
+
+3.3.3 Chicken Wings (8 pcs) – $9.99
+
+
+3.4 Beverages
+
+3.4.1 Cola – $2.50
+
+3.4.2 Diet Cola – $2.50
+
+3.4.3 Sprite – $2.50
+
+
+
+4. Ordering Options
+4.1 Delivery
+
+4.1.1 Delivery is available within a 10 km radius of the restaurant.
+
+4.1.2 Minimum order for delivery: $15.00.
+
+4.1.3 Delivery fee: $3.99.
+
+4.1.4 Free delivery applies to orders over $30.00.
+
+4.1.5 Estimated delivery time: 30–45 minutes.
+
+4.1.6 Customers must provide full delivery address, postal code, and phone number.
+
+4.1.7 Apartment or buzzer number is recommended when applicable.
+
+4.2 Pickup
+
+4.2.1 Pickup orders are typically ready within 15–20 minutes.
+
+
+
+4.2.2 Customers must provide their name when placing a pickup order.
+
+5. Payment Policy
+
+5.1 Accepted payment methods include Cash, Visa, Mastercard, Debit, Apple Pay, and Google Pay.
+
+5.2 Tips are appreciated but not required.
+
+6. Customer Service
+
+6.1 Mario’s Pizza strives to ensure accurate order preparation and timely service.
+
+6.2 Customers experiencing issues with their order are encouraged to contact the restaurant directly for resolutio

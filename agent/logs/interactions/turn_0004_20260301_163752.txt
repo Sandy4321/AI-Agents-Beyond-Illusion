@@ -1,0 +1,794 @@
+================================================================================
+TURN 4  —  20260301_163752
+================================================================================
+
+USER QUERY:
+in 30 minutes
+
+────────────────────────────────────────
+ALL CHUNK EVALUATIONS (240):
+────────────────────────────────────────
+
+  [1/240] score=0 relevant=False type=title node=1 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Company Overview
+
+  [2/240] score=0 relevant=False type=instruction node=1.1.1 | Tokens: 361 in, 12 out | Cost: $0.000031
+      text: Ask, "Are you looking for pickup or delivery today?" If delivery, mention, "We offer freshly prepared pizzas, sides, and beverages. Please note, there's a $15.00 minimum order for delivery, and we deliver within a 10 km radius." Suggest, "Would you like to start with a Build-Your-Own pizza, perhaps adding a Stuffed Crust, or explore our Specialty Pizzas?"
+
+  [3/240] score=0 relevant=False type=title node=2.1.1 | Tokens: 291 in, 12 out | Cost: $0.000025
+      text: Monday – Sunday: 11:00 AM – 10:00 PM
+
+  [4/240] score=1 relevant=False type=knowledge_fact node=2 | Tokens: 313 in, 12 out | Cost: $0.000027
+      text: We're open and ready to take your order for fresh pizzas, sides, and beverages every day, Monday through Sunday, from 11:00 AM until 10:00 PM.
+
+  [5/240] score=1 relevant=False type=instruction node=2 | Tokens: 290 in, 12 out | Cost: $0.000025
+      text: Ask, "What time were you hoping to pick up your order or have it delivered?"
+
+  [6/240] score=0 relevant=False type=knowledge_fact node=1.1.1 | Tokens: 299 in, 12 out | Cost: $0.000026
+      text: Our delivery service requires a minimum order of $15.00 and covers a geographic radius of 10 km from the restaurant.
+
+  [7/240] score=1 relevant=False type=knowledge_fact node=2 | Tokens: 306 in, 12 out | Cost: $0.000027
+      text: For both pickup and delivery, we can only process and fulfill orders within our operational window of 11:00 AM to 10:00 PM daily.
+
+  [8/240] score=1 relevant=False type=knowledge_fact node=1.1 | Tokens: 321 in, 12 out | Cost: $0.000028
+      text: Our operating hours are Monday – Sunday: 11:00 AM – 10:00 PM, and for delivery, there is a $15.00 minimum order requirement within a local 10 km delivery radius.
+
+  [9/240] score=1 relevant=False type=knowledge_fact node=2.1 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: The restaurant maintains fixed operating hours from 11:00 AM to 10:00 PM, seven days a week, Monday through Sunday.
+
+  [10/240] score=0 relevant=False type=knowledge_fact node=1 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: The restaurant operates Monday through Sunday from 11:00 AM to 10:00 PM and offers both delivery and in-person pickup.
+
+  [11/240] score=0 relevant=False type=title node=1.1 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Business Description
+
+  [12/240] score=0 relevant=False type=knowledge_fact node=1 | Tokens: 298 in, 12 out | Cost: $0.000026
+      text: For delivery, there is a 10 km radius constraint, and a minimum order of $15.00 is required.
+
+  [13/240] score=0 relevant=False type=instruction node=1.1 | Tokens: 344 in, 12 out | Cost: $0.000029
+      text: Suggest, "We offer freshly prepared pizzas, sides, and beverages. Are you interested in one of our Specialty Pizzas, or would you like to build your own?" For indecisive customers, offer to describe a popular Specialty Pizza or guide them through the Build-Your-Own process step-by-step, mentioning crust, sauce, and topping choices.
+
+  [14/240] score=1 relevant=False type=knowledge_fact node=2.1.1 | Tokens: 320 in, 12 out | Cost: $0.000028
+      text: All order placements for delivery or pickup, including any Build-Your-Own pizzas or specialty pizzas, must be finalized and prepared within the 11:00 AM to 10:00 PM operating window, Monday through Sunday.
+
+  [15/240] score=1 relevant=False type=knowledge_fact node=1.1.1 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: Mario's Pizza operates daily from 11:00 AM to 10:00 PM, offering freshly prepared Build-Your-Own and Specialty pizzas, sides, and beverages.
+
+  [16/240] score=1 relevant=False type=knowledge_fact node=2.1.1 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: Customers can place orders for freshly prepared pizzas, sides, and beverages for either pickup or delivery only between 11:00 AM and 10:00 PM, Monday through Sunday.
+
+  [17/240] score=0 relevant=False type=title node=2.1 | Tokens: 275 in, 12 out | Cost: $0.000024
+      text: Regular Business Hours
+
+  [18/240] score=1 relevant=False type=instruction node=2 | Tokens: 293 in, 12 out | Cost: $0.000026
+      text: Ask, 'Are you looking to place an order for now, or for a specific time later today?'
+
+  [19/240] score=0 relevant=False type=instruction node=1 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: Ask the customer if they are looking to place an order for delivery or pickup, and if they have a specific item in mind or need help navigating our menu.
+
+  [20/240] score=1 relevant=False type=instruction node=1.1 | Tokens: 332 in, 12 out | Cost: $0.000028
+      text: Ask, "Are you looking to place an order for delivery or pickup today?" If they choose delivery, immediately confirm their address to check our 10 km radius and remind them of the $15.00 minimum order for delivery. If they choose pickup, confirm their name for the order.
+
+  [21/240] score=0 relevant=False type=instruction node=1.1.1 | Tokens: 392 in, 12 out | Cost: $0.000033
+      text: Guide the customer through customization by asking, "For your pizza, would you like to build your own by choosing your crust and toppings, or explore our Specialty Pizzas and sides?" If the customer's location is outside the 10 km delivery radius or their order is below the $15.00 delivery minimum, gently steer them to pickup by saying, "It looks like your location is just outside our current delivery zone / your order is below our delivery minimum. We'd be happy to prepare your order for convenient pickup here, available until 10:00 PM tonight."
+
+  [22/240] score=9 relevant=True type=knowledge_fact node=2.1 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: All order fulfillment, including both delivery and pickup options, is exclusively available within our fixed operating hours of 11:00 AM to 10:00 PM daily.
+
+  [23/240] score=1 relevant=False type=title node=1.1.1 | Tokens: 289 in, 12 out | Cost: $0.000025
+      text: The business specializes in freshly prepared pizzas, sides, and beverages available for delivery and pickup.
+
+  [24/240] score=0 relevant=False type=knowledge_fact node=1.1 | Tokens: 296 in, 12 out | Cost: $0.000026
+      text: The primary offerings include freshly prepared pizzas, available as Build-Your-Own or Specialty options, along with sides and beverages.
+
+  [25/240] score=1 relevant=False type=instruction node=2.1 | Tokens: 312 in, 12 out | Cost: $0.000027
+      text: Confirm the current time and day of the week with the customer to ensure we are within our operating hours of 11:00 AM to 10:00 PM, Monday through Sunday.
+
+  [26/240] score=1 relevant=False type=instruction node=2.1 | Tokens: 340 in, 12 out | Cost: $0.000029
+      text: When a customer attempts to place an order outside of our fixed operating hours, politely state, "Mario's Pizza is currently closed. Our hours are daily from 11:00 AM to 10:00 PM. Would you like to place an order for pickup or delivery for a specific time within our open hours?"
+
+  [27/240] score=0 relevant=False type=instruction node=2.1.1 | Tokens: 343 in, 12 out | Cost: $0.000029
+      text: Greet the customer by stating, "Welcome! We're open and ready to take your order until 10:00 PM tonight. Would you like to start with a Build-Your-Own pizza, or choose from our Specialty Pizzas? Don't forget, you can add delicious Stuffed Crust to any pizza for an extra treat!"
+
+  [28/240] score=0 relevant=False type=instruction node=1 | Tokens: 309 in, 12 out | Cost: $0.000027
+      text: If the customer is unsure, suggest starting with our freshly prepared pizzas, then inquire if they prefer to Build-Your-Own or explore our Specialty options, before moving to sides or beverages.
+
+  [29/240] score=0 relevant=False type=instruction node=2.1.1 | Tokens: 331 in, 12 out | Cost: $0.000028
+      text: Inform the customer, "Thank you for calling! We are currently closed. Our operating hours are Monday through Sunday, from 11:00 AM to 10:00 PM. We look forward to serving you when we open at 11:00 AM tomorrow!"
+
+  [30/240] score=0 relevant=False type=title node=2 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Operating Hours
+
+  [31/240] score=0 relevant=False type=instruction node=3.1.1 | Tokens: 302 in, 12 out | Cost: $0.000026
+      text: Ask, "Are you ordering for one person or a group today? And would you like to build your own pizza or choose from our Specialty options?"
+
+  [32/240] score=0 relevant=False type=knowledge_fact node=3.1.1 | Tokens: 285 in, 12 out | Cost: $0.000025
+      text: Pizzas are available in two size tiers: Small and Medium.
+
+  [33/240] score=0 relevant=False type=title node=3.1 | Tokens: 278 in, 12 out | Cost: $0.000024
+      text: Build-Your-Own Pizza
+
+  [34/240] score=0 relevant=False type=knowledge_fact node=3 | Tokens: 328 in, 12 out | Cost: $0.000028
+      text: All pizzas are available with size-based pricing (Small, Medium). For any delivery orders, a minimum purchase of $15.00 is required, and our operating hours are Monday through Sunday, 11:00 AM to 10:00 PM.
+
+  [35/240] score=0 relevant=False type=instruction node=3.1.1 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: Ask the customer, "Are you looking for a Small or Medium pizza today, or are you unsure about the best size for your needs?" to guide them based on our size-based pricing structure.
+
+  [36/240] score=0 relevant=False type=instruction node=3 | Tokens: 340 in, 12 out | Cost: $0.000029
+      text: Ask, "Are you looking for one of our specialty pizzas, a custom Build-Your-Own pizza, or perhaps one of our delicious sides or refreshing beverages today?" If they are unsure, suggest, "Many customers find our specialty pizzas convenient, or you can build your own if you have specific preferences for crust, sauce, and toppings."
+
+  [37/240] score=0 relevant=False type=knowledge_fact node=3.1.1.1 | Tokens: 304 in, 12 out | Cost: $0.000026
+      text: The Small 10-inch pizza is a core revenue driver priced at $9.99, available as a Build-Your-Own or Specialty option.
+
+  [38/240] score=0 relevant=False type=title node=3 | Tokens: 275 in, 12 out | Cost: $0.000024
+      text: Menu Offerings
+
+  [39/240] score=0 relevant=False type=instruction node=3.1 | Tokens: 323 in, 12 out | Cost: $0.000028
+      text: Guide the customer through available toppings, confirming each choice, and suggest adding extra toppings for more flavor, or mention garlic bread with cheese as a complementary side. Confirm all chosen toppings and crust type before finalizing the Build-Your-Own pizza to ensure order accuracy.
+
+  [40/240] score=0 relevant=False type=knowledge_fact node=3.1.1.1 | Tokens: 329 in, 12 out | Cost: $0.000028
+      text: For delivery orders, a Small 10-inch pizza at $9.99 alone does not meet the $15.00 minimum order value. Upsell items like Stuffed Crust, Additional Toppings, or Garlic Bread with Cheese can be added to reach this threshold.
+
+  [41/240] score=0 relevant=False type=knowledge_fact node=3 | Tokens: 317 in, 12 out | Cost: $0.000027
+      text: The primary menu offerings include freshly prepared pizzas (Build-Your-Own and Specialty options), various Sides, and refreshing Beverages. Upsell opportunities like Stuffed Crust, Additional Toppings, and Garlic Bread with Cheese are also available.
+
+  [42/240] score=0 relevant=False type=instruction node=3.1 | Tokens: 328 in, 12 out | Cost: $0.000028
+      text: Ask the customer what size Build-Your-Own pizza they would like, Small or Medium, and if they prefer a regular or stuffed crust. If they are unsure or indecisive, suggest starting with their favorite sauce and cheese, then adding 2-3 toppings they enjoy.
+
+  [43/240] score=0 relevant=False type=instruction node=3 | Tokens: 337 in, 12 out | Cost: $0.000029
+      text: Ask, "Are you leaning towards creating your own pizza with specific toppings, or would you prefer to choose from our selection of Specialty pizzas?" If they are undecided, explain, "Our Build-Your-Own allows for complete customization in Small or Medium sizes, while our Specialty pizzas offer unique, pre-set combinations for convenience."
+
+  [44/240] score=0 relevant=False type=title node=3.1.1.2 | Tokens: 285 in, 12 out | Cost: $0.000025
+      text: Medium (12 inch) – $12.99
+
+  [45/240] score=0 relevant=False type=title node=3.1.1 | Tokens: 276 in, 12 out | Cost: $0.000024
+      text: Sizes and Base Prices
+
+  [46/240] score=0 relevant=False type=knowledge_fact node=3.1 | Tokens: 322 in, 12 out | Cost: $0.000028
+      text: Build-Your-Own pizzas are designed for full customization, contrasting with Specialty Pizzas which have predefined ingredient combinations. Pricing for Build-Your-Own is primarily size-based (Small, Medium) with additional costs for Stuffed Crust and extra toppings.
+
+  [47/240] score=0 relevant=False type=knowledge_fact node=3.1.1 | Tokens: 306 in, 12 out | Cost: $0.000027
+      text: Customers can select either a Build-Your-Own pizza or a Specialty pizza, and the base price for either option is determined by whether they choose a Small or Medium size.
+
+  [48/240] score=0 relevant=False type=knowledge_fact node=3.1.1.2 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: If a customer orders only a Medium 12-inch pizza ($12.99) for delivery, they will not meet the $15.00 minimum order requirement for delivery.
+
+  [49/240] score=0 relevant=False type=knowledge_fact node=3.1.1.2 | Tokens: 289 in, 12 out | Cost: $0.000025
+      text: The Medium 12-inch pizza is priced at $12.99.
+
+  [50/240] score=0 relevant=False type=title node=3.1.1.1 | Tokens: 284 in, 12 out | Cost: $0.000025
+      text: Small (10 inch) – $9.99
+
+  [51/240] score=0 relevant=False type=knowledge_fact node=3.1 | Tokens: 309 in, 12 out | Cost: $0.000027
+      text: The Build-Your-Own pizza option allows customers to choose their pizza size (Small or Medium) and select individual toppings, with upsell opportunities for Stuffed Crust and Additional Toppings.
+
+  [52/240] score=0 relevant=False type=instruction node=3.1.1.1 | Tokens: 360 in, 12 out | Cost: $0.000031
+      text: Confirm, "Okay, a Small 10-inch pizza for $9.99." If the order is for delivery and the current total is less than the $15.00 minimum, gently suggest, "To meet our $15.00 minimum for delivery, would you like to add a delicious Garlic Bread with Cheese, or perhaps upgrade to a Stuffed Crust for an additional charge? These are popular additions."
+
+  [53/240] score=0 relevant=False type=instruction node=3.1.1.2 | Tokens: 320 in, 12 out | Cost: $0.000028
+      text: Confirm the customer's choice by stating, "Okay, a Medium 12-inch pizza for $12.99. Would you like to add Stuffed Crust or any Additional Toppings to that for an extra charge?"
+
+  [54/240] score=0 relevant=False type=instruction node=3.1.1.1 | Tokens: 368 in, 12 out | Cost: $0.000031
+      text: Confirm the customer's choice of a Small 10-inch pizza at $9.99 and ask, "Will this be a Build-Your-Own pizza where you select your toppings, or would you prefer one of our Specialty options?" For Build-Your-Own, clearly repeat each chosen topping to ensure order accuracy. If the customer expresses a desire for a larger meal or more variety, suggest exploring our Medium size pizza or adding any of our sides and beverages.
+
+  [55/240] score=0 relevant=False type=instruction node=3.1.1.2 | Tokens: 325 in, 12 out | Cost: $0.000028
+      text: Confirm the customer's selection by stating: "Excellent choice! The Medium (12 inch) pizza is $12.99. Would you like to customize it with any additional toppings, or perhaps upgrade to a Stuffed Crust for an extra charge?"
+
+  [56/240] score=0 relevant=False type=knowledge_fact node=3.1.2 | Tokens: 299 in, 12 out | Cost: $0.000026
+      text: Crust selection is a key component of customizing 'Build-Your-Own' pizzas, allowing customers to tailor their order beyond standard offerings.
+
+  [57/240] score=0 relevant=False type=knowledge_fact node=3.1.2 | Tokens: 296 in, 12 out | Cost: $0.000026
+      text: Stuffed Crust is identified as an 'Upsell Potential Area,' indicating it is an optional, premium crust choice for pizzas.
+
+  [58/240] score=0 relevant=False type=instruction node=3.1.2 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: If the customer is unsure, suggest, "Our classic crust is always a great base, but the Stuffed Crust is a fantastic way to add a premium touch to your pizza for an additional charge."
+
+  [59/240] score=0 relevant=False type=title node=3.1.2 | Tokens: 275 in, 12 out | Cost: $0.000024
+      text: Crust Options
+
+  [60/240] score=0 relevant=False type=instruction node=3.1.2 | Tokens: 300 in, 12 out | Cost: $0.000026
+      text: Ask, "Are you looking for our classic pizza crust, or would you be interested in our Stuffed Crust for an extra delicious experience?"
+
+  [61/240] score=0 relevant=False type=knowledge_fact node=3.1.2.1 | Tokens: 299 in, 12 out | Cost: $0.000026
+      text: The 'Regular Crust' is the standard, included base for all freshly prepared pizzas, encompassing both Build-Your-Own and Specialty options.
+
+  [62/240] score=0 relevant=False type=instruction node=3.1.2.1 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: Confirm, "The regular crust is included with your pizza. Would you like to stick with that, or are you interested in upgrading to our Stuffed Crust for an additional charge?"
+
+  [63/240] score=0 relevant=False type=instruction node=3.1.2.1 | Tokens: 329 in, 12 out | Cost: $0.000028
+      text: If the customer expresses budget concerns or asks about cost, state clearly, "The regular crust is our standard offering and comes at no extra cost; it's part of the base price of your pizza. This is a great choice if you prefer a classic pizza experience without any additional expense."
+
+  [64/240] score=0 relevant=False type=title node=3.1.3 | Tokens: 281 in, 12 out | Cost: $0.000025
+      text: Toppings (Each $1.50)
+
+  [65/240] score=0 relevant=False type=instruction node=3.1.3 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: Ask the customer if they have any specific toppings in mind, or if they would like suggestions, reminding them that each additional topping is $1.50.
+
+  [66/240] score=0 relevant=False type=instruction node=3.1.3 | Tokens: 304 in, 12 out | Cost: $0.000026
+      text: For indecisive customers, suggest broad categories such as 'meat options' or 'vegetable options' to help them customize their Build-Your-Own pizza.
+
+  [67/240] score=0 relevant=False type=knowledge_fact node=3.1.3 | Tokens: 285 in, 12 out | Cost: $0.000025
+      text: Each additional topping selected for a pizza costs $1.50.
+
+  [68/240] score=0 relevant=False type=title node=3.1.3.1 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Pepperoni
+
+  [69/240] score=0 relevant=False type=knowledge_fact node=3.1.2.2 | Tokens: 318 in, 12 out | Cost: $0.000027
+      text: Stuffed Crust is identified as an 'Upsell Potential Area' in the business model, offering an optional enhancement to any freshly prepared pizza for an additional $2.00, applicable to both Small and Medium size-based pizzas.
+
+  [70/240] score=0 relevant=False type=instruction node=3.1.2.2 | Tokens: 322 in, 12 out | Cost: $0.000028
+      text: Suggest adding Stuffed Crust to their pizza for an additional $2.00, stating: 'You can upgrade your pizza with Stuffed Crust for an additional $2.00.' If the customer declines, proceed with their order without the upgrade.
+
+  [71/240] score=0 relevant=False type=knowledge_fact node=3.1.3 | Tokens: 294 in, 12 out | Cost: $0.000026
+      text: Adding toppings is a key component for 'Build-Your-Own' pizza customization and represents an upsell opportunity.
+
+  [72/240] score=0 relevant=False type=title node=3.1.2.1 | Tokens: 276 in, 12 out | Cost: $0.000024
+      text: Regular Crust – Included
+
+  [73/240] score=0 relevant=False type=instruction node=3.1.2.2 | Tokens: 319 in, 12 out | Cost: $0.000028
+      text: Offer Stuffed Crust as a customization option when customers are ordering a pizza, especially for 'Build-Your-Own' pizzas, by asking: 'Would you like to add Stuffed Crust for an additional $2.00?'
+
+  [74/240] score=0 relevant=False type=knowledge_fact node=3.1.2.1 | Tokens: 305 in, 12 out | Cost: $0.000026
+      text: Customers have the option to upgrade from the regular crust to a 'Stuffed Crust,' identified as an upsell potential area in the business model, for an additional charge.
+
+  [75/240] score=0 relevant=False type=instruction node=3.1.3.1 | Tokens: 338 in, 12 out | Cost: $0.000029
+      text: Confirm 'Pepperoni' as an additional topping for their pizza. If it's a Build-Your-Own, suggest pairing it with our 'Stuffed Crust' for an enhanced flavor, which is available as an upsell. For delivery orders, remind the customer that the minimum order value is $15.00.
+
+  [76/240] score=0 relevant=False type=title node=3.1.3.2 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Mushrooms
+
+  [77/240] score=0 relevant=False type=title node=3.1.2.2 | Tokens: 282 in, 12 out | Cost: $0.000025
+      text: Stuffed Crust – Additional $2.00
+
+  [78/240] score=0 relevant=False type=knowledge_fact node=3.1.2.2 | Tokens: 319 in, 12 out | Cost: $0.000028
+      text: Adding Stuffed Crust is a key 'Menu customization' option, particularly for 'Build-Your-Own' pizzas, and requires precise order capture to ensure 'Order accuracy' and uphold 'Food quality' as per customer 'Trust Requirements'.
+
+  [79/240] score=0 relevant=False type=knowledge_fact node=3.1.3.1 | Tokens: 310 in, 12 out | Cost: $0.000027
+      text: Pepperoni serves as an 'Additional Topping' for 'Build-Your-Own' pizzas, allowing for 'Menu customization' where pricing is 'Size-based (Small, Medium)'.
+
+  [80/240] score=0 relevant=False type=knowledge_fact node=3.1.3.1 | Tokens: 313 in, 12 out | Cost: $0.000027
+      text: For customers concerned about 'potential allergy issues', pepperoni is an ingredient that can be customized or omitted when ordering a 'Build-Your-Own' pizza, ensuring 'freshly prepared pizzas' meet specific needs.
+
+  [81/240] score=0 relevant=False type=title node=3.1.3.3 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Green Peppers
+
+  [82/240] score=0 relevant=False type=instruction node=3.1.3.2 | Tokens: 339 in, 12 out | Cost: $0.000029
+      text: Suggest adding mushrooms to a 'Build-Your-Own' pizza for an enhanced flavor profile, or mention them as an extra topping option when a customer is ordering a 'Specialty Pizza' and then ask, 'Would you like to add some delicious mushrooms to that, perhaps with some extra cheese or pepperoni for just a little more?'
+
+  [83/240] score=0 relevant=False type=instruction node=3.1.3.2 | Tokens: 327 in, 12 out | Cost: $0.000028
+      text: Offer mushrooms as an 'Additional Topping' for any pizza, specifically when a customer is creating a 'Build-Your-Own' pizza or choosing a 'Specialty' pizza, stating: 'Would you like to add mushrooms as an additional topping to your pizza today?'
+
+  [84/240] score=0 relevant=False type=instruction node=3.1.3.1 | Tokens: 333 in, 12 out | Cost: $0.000029
+      text: Ask if they would like pepperoni as an additional topping on a 'Build-Your-Own' pizza, or if they are interested in a 'Specialty' pizza that already includes it. Suggest enhancing their order with 'Garlic Bread with Cheese' or mentioning 'Stuffed Crust' as a premium option.
+
+  [85/240] score=0 relevant=False type=knowledge_fact node=3.1.3.2 | Tokens: 304 in, 12 out | Cost: $0.000026
+      text: Mushrooms are an available ingredient for customers customizing a 'Build-Your-Own' pizza, directly related to the 'Order customization logic' identified for AI interaction.
+
+  [86/240] score=0 relevant=False type=instruction node=3.1.3.3 | Tokens: 317 in, 12 out | Cost: $0.000027
+      text: Confirm you'd like to add green peppers to your pizza. If this is for delivery and your order is currently below $15.00, suggest adding a side or beverage to meet the minimum order requirement for delivery.
+
+  [87/240] score=0 relevant=False type=instruction node=3.1.3.3 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: Before finalizing the order, confirm the addition of green peppers and all other selected toppings to ensure order accuracy. If the customer mentions allergies, offer to review all ingredients for their chosen pizza.
+
+  [88/240] score=0 relevant=False type=knowledge_fact node=3.1.3.2 | Tokens: 301 in, 12 out | Cost: $0.000026
+      text: Mushrooms are categorized as an 'Additional Topping,' identified as an 'Upsell Potential Area' in the business's 'Revenue Model Structure'.
+
+  [89/240] score=0 relevant=False type=knowledge_fact node=3.1.3.3 | Tokens: 302 in, 12 out | Cost: $0.000026
+      text: Green peppers are available as a customization option for Build-Your-Own pizzas and can be added as an 'Additional Topping' to any Specialty Pizza.
+
+  [90/240] score=0 relevant=False type=knowledge_fact node=3.1.3.3 | Tokens: 302 in, 12 out | Cost: $0.000026
+      text: For delivery orders, adding green peppers as an 'Additional Topping' helps customers reach the $15.00 minimum order value required for eligibility.
+
+  [91/240] score=0 relevant=False type=title node=3.2 | Tokens: 276 in, 12 out | Cost: $0.000024
+      text: Specialty Pizzas
+
+  [92/240] score=0 relevant=False type=instruction node=3.2 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: Ask if they have a preference for certain ingredients or a flavor profile (e.g., spicy, savory, vegetarian, meat-lover) to help us recommend a specialty pizza that matches their taste.
+
+  [93/240] score=0 relevant=False type=knowledge_fact node=3.2 | Tokens: 296 in, 12 out | Cost: $0.000026
+      text: Specialty Pizzas are identified as a core revenue driver for Mario's Pizza, alongside Build-Your-Own pizzas.
+
+  [94/240] score=0 relevant=False type=knowledge_fact node=3.2.1 | Tokens: 298 in, 12 out | Cost: $0.000026
+      text: Specialty pizzas at Mario's Pizza, such as the Margherita, are available in size-based price tiers: Small and Medium.
+
+  [95/240] score=0 relevant=False type=title node=3.2.1 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Margherita
+
+  [96/240] score=0 relevant=False type=instruction node=3.2 | Tokens: 310 in, 12 out | Cost: $0.000027
+      text: Mention that all specialty pizzas are available in Small and Medium sizes, and they can choose to upgrade to a Stuffed Crust for an additional charge, just like our Build-Your-Own options.
+
+  [97/240] score=0 relevant=False type=title node=3.2.1.1 | Tokens: 279 in, 12 out | Cost: $0.000025
+      text: Ingredients: Tomato, mozzarella, basil.
+
+  [98/240] score=0 relevant=False type=instruction node=3.2.1 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: Ask, "Would you like your Margherita pizza in a Small or Medium size today? And are you interested in upgrading to a Stuffed Crust with that?"
+
+  [99/240] score=0 relevant=False type=knowledge_fact node=3.2 | Tokens: 300 in, 12 out | Cost: $0.000026
+      text: All Specialty Pizzas are available in Small and Medium sizes, and you can enhance any specialty pizza with a Stuffed Crust for an additional charge.
+
+  [100/240] score=0 relevant=False type=knowledge_fact node=3.2.1 | Tokens: 295 in, 12 out | Cost: $0.000026
+      text: Customers have the option to add a Stuffed Crust to their pizza, which is identified as an upsell potential area.
+
+  [101/240] score=0 relevant=False type=instruction node=3.2.1.1 | Tokens: 350 in, 12 out | Cost: $0.000030
+      text: Confirm with the customer if they are interested in the pizza with tomato, mozzarella, and basil. Then, suggest enhancing their order by asking, "Would you like to add a Stuffed Crust to your pizza for an extra charge, or perhaps some Garlic Bread with Cheese as a side?" Also, offer a beverage by stating, "We also have a selection of beverages to go with your meal."
+
+  [102/240] score=0 relevant=False type=instruction node=3.2.1.2 | Tokens: 342 in, 12 out | Cost: $0.000029
+      text: Confirm, "You'd like to order a Small pizza for $11.99. Would you like to build your own with custom toppings, or select one of our specialty options?" Then, suggest, "For an even richer flavor, consider adding our Stuffed Crust, or choose from our variety of sides and beverages to complete your meal."
+
+  [103/240] score=0 relevant=False type=instruction node=3.2.1.2 | Tokens: 353 in, 12 out | Cost: $0.000030
+      text: Ask, "Will this be for pickup or delivery?" If it's for delivery, remind them, "Please note there is a $15.00 minimum order for delivery." If they express a need for a larger size, prompt, "We also offer Medium pizzas if you're looking for a bigger option, and we're open until 10:00 PM every day."
+
+  [104/240] score=0 relevant=False type=instruction node=3.2.1.1 | Tokens: 408 in, 12 out | Cost: $0.000034
+      text: When a customer orders a pizza featuring tomato, mozzarella, and basil, confirm their choice and ask, 'Would you like to upgrade to our Stuffed Crust, or add any extra toppings to customize your pizza further?' If they seem hesitant about a plain option, suggest, 'Many customers enjoy adding a side like our Garlic Bread with Cheese to complete their meal.' For delivery orders, remind them, 'Just a heads up, there's a $15.00 minimum order for all deliveries.' Also, if they mention allergies, state, 'Please be aware that while this pizza contains tomato, mozzarella, and basil, we can provide full ingredient lists for any allergy concerns.'
+
+  [105/240] score=0 relevant=False type=knowledge_fact node=3.2.1.1 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: Pizzas containing tomato, mozzarella, and basil are categorized as 'Freshly prepared pizzas' and are offered with size-based pricing (Small, Medium).
+
+  [106/240] score=0 relevant=False type=instruction node=3.2.1 | Tokens: 293 in, 12 out | Cost: $0.000026
+      text: Ask if they are looking for a Small or Medium size for their Margherita pizza, as we offer both options.
+
+  [107/240] score=0 relevant=False type=knowledge_fact node=3.2.1.2 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: To qualify for delivery, a minimum order value of $15.00 is required. Orders can be customized with additional toppings and upselling options like Stuffed Crust, sides, and beverages.
+
+  [108/240] score=0 relevant=False type=title node=3.2.1.2 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Small – $11.99
+
+  [109/240] score=0 relevant=False type=knowledge_fact node=3.2.1.1 | Tokens: 319 in, 12 out | Cost: $0.000028
+      text: Pizzas containing tomato, mozzarella, and basil are considered 'freshly prepared pizzas' and are available for order during fixed operating hours: Monday – Sunday, 11:00 AM – 10:00 PM.
+
+  [110/240] score=0 relevant=False type=title node=3.2.1.3 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Medium – $14.99
+
+  [111/240] score=0 relevant=False type=knowledge_fact node=3.2.1.2 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: The 'Small' pizza is priced at $11.99. This base price applies whether the customer chooses a Build-Your-Own or a Specialty pizza in this size.
+
+  [112/240] score=0 relevant=False type=instruction node=3.2.1.3 | Tokens: 357 in, 12 out | Cost: $0.000030
+      text: If this order is for delivery and the total is currently $14.99, explain: "For delivery, there is a $15.00 minimum order. We could add a refreshing beverage or a side like Garlic Bread with Cheese to meet that, or you're welcome to pick it up at our store, open from 11:00 AM to 10:00 PM daily."
+
+  [113/240] score=0 relevant=False type=instruction node=3.2.1.3 | Tokens: 333 in, 12 out | Cost: $0.000029
+      text: Confirm: "You'd like the Medium pizza for $14.99." Then, suggest: "To make it even better, would you like to upgrade to our delicious Stuffed Crust, or perhaps add some extra toppings? We also offer tasty Garlic Bread with Cheese and a variety of beverages."
+
+  [114/240] score=0 relevant=False type=knowledge_fact node=3.2.2 | Tokens: 294 in, 12 out | Cost: $0.000026
+      text: Our specialty BBQ Chicken pizza is offered in two sizes, Small and Medium, with pricing determined by your chosen size.
+
+  [115/240] score=0 relevant=False type=knowledge_fact node=3.2.1.3 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: The Medium pizza is priced at $14.99 and can be customized as a 'Build-Your-Own' option, with upsell opportunities including Stuffed Crust and Additional Toppings.
+
+  [116/240] score=0 relevant=False type=knowledge_fact node=3.2.1.3 | Tokens: 322 in, 12 out | Cost: $0.000028
+      text: A Medium pizza, priced at $14.99, does not meet the $15.00 minimum order requirement for delivery on its own; customers ordering for delivery must add at least $0.01 in additional items to qualify.
+
+  [117/240] score=0 relevant=False type=instruction node=3.2.2 | Tokens: 302 in, 12 out | Cost: $0.000026
+      text: Ask, 'Are you interested in our Small or Medium BBQ Chicken Pizza today?' to immediately narrow down their preference based on our size-based pricing structure.
+
+  [118/240] score=0 relevant=False type=instruction node=3.2.2 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: Suggest adding a 'Stuffed Crust' for an enhanced experience, mentioning it's a popular upsell option, especially if they seem indecisive or are a new customer trying a specialty pizza.
+
+  [119/240] score=0 relevant=False type=title node=3.2.2 | Tokens: 275 in, 12 out | Cost: $0.000024
+      text: BBQ Chicken
+
+  [120/240] score=0 relevant=False type=knowledge_fact node=3.2.2 | Tokens: 296 in, 12 out | Cost: $0.000026
+      text: You can enhance your BBQ Chicken pizza with options like a Stuffed Crust or by adding additional toppings, allowing for personalized customization.
+
+  [121/240] score=0 relevant=False type=title node=3.2.2.1 | Tokens: 281 in, 12 out | Cost: $0.000025
+      text: Ingredients: BBQ sauce, chicken, red onion.
+
+  [122/240] score=0 relevant=False type=instruction node=3.2.2.1 | Tokens: 357 in, 12 out | Cost: $0.000030
+      text: Advise customers placing a delivery order: 'Please note, there is a $15.00 minimum for delivery. Would you like to add a beverage or any other sides to meet this?' If a customer expresses an allergy or strong dislike for chicken, BBQ sauce, or red onion, suggest: 'We can also create a custom Build-Your-Own pizza, allowing you to choose toppings that better suit your preference.'
+
+  [123/240] score=0 relevant=False type=knowledge_fact node=3.2.2.1 | Tokens: 313 in, 12 out | Cost: $0.000027
+      text: The specialty pizza described in node [3.2.2.1] contains BBQ sauce, chicken, and red onion. It is available under a size-based price tiering structure (Small, Medium).
+
+  [124/240] score=0 relevant=False type=title node=3.2.2.2 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Small – $12.99
+
+  [125/240] score=0 relevant=False type=instruction node=3.2.2.1 | Tokens: 326 in, 12 out | Cost: $0.000028
+      text: Confirm that our BBQ Chicken pizza features BBQ sauce, chicken, and red onion. Ask, 'Would you like to enhance your pizza by upgrading to a Stuffed Crust, adding any Additional Toppings, or perhaps a side like our Garlic Bread with Cheese or another beverage?'
+
+  [126/240] score=0 relevant=False type=instruction node=3.2.2.2 | Tokens: 341 in, 12 out | Cost: $0.000029
+      text: If the customer indicates delivery, advise, "Please note, for delivery, there is a minimum order of $15.00. A small pizza is $12.99, so you would need to add at least $2.01 more with a side or beverage to qualify for delivery, or you can pick it up."
+
+  [127/240] score=0 relevant=False type=knowledge_fact node=3.2.2.1 | Tokens: 342 in, 12 out | Cost: $0.000029
+      text: This specialty pizza can be ordered for pickup or delivery. For delivery, a minimum order value of $15.00 is required, and the delivery radius is limited to 10 km. Orders can be placed and fulfilled during fixed operating hours: Monday – Sunday, 11:00 AM – 10:00 PM.
+
+  [128/240] score=0 relevant=False type=title node=3.2.2.3 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Medium – $15.99
+
+  [129/240] score=0 relevant=False type=instruction node=3.2.2.3 | Tokens: 328 in, 12 out | Cost: $0.000028
+      text: Confirm: 'Alright, a Medium pizza for $15.99. To make it even better, would you like to add a Stuffed Crust or any additional toppings? If this is for delivery, please note that the minimum order value is $15.00.'
+
+  [130/240] score=0 relevant=False type=instruction node=3.2.2.3 | Tokens: 338 in, 12 out | Cost: $0.000029
+      text: Confirm: 'Okay, a Medium pizza for $15.99. Would you like to add a Stuffed Crust for an extra charge, or any Additional Toppings to customize it further? Also, just so you know, this order already meets our $15.00 minimum for delivery if you choose that option.'
+
+  [131/240] score=0 relevant=False type=knowledge_fact node=3.2.3 | Tokens: 296 in, 12 out | Cost: $0.000026
+      text: The Veggie Supreme is offered as a Specialty Pizza and is available in our standard size-based options (Small, Medium).
+
+  [132/240] score=0 relevant=False type=knowledge_fact node=3.2.2.2 | Tokens: 300 in, 12 out | Cost: $0.000026
+      text: For delivery orders, a Small pizza at $12.99 does not meet the mandatory $15.00 minimum order value.
+
+  [133/240] score=0 relevant=False type=knowledge_fact node=3.2.2.2 | Tokens: 305 in, 12 out | Cost: $0.000026
+      text: Mario's Pizza offers a Small pizza for $12.99, which is one of the two size-based price tiers available, the other being Medium.
+
+  [134/240] score=0 relevant=False type=instruction node=3.2.3 | Tokens: 312 in, 12 out | Cost: $0.000027
+      text: Suggest describing the standard Veggie Supreme specialty pizza if you're unsure, or offer to guide you through our 'Build-Your-Own' options if you have specific veggie preferences beyond our specialty selection.
+
+  [135/240] score=0 relevant=False type=instruction node=3.2.2.2 | Tokens: 312 in, 12 out | Cost: $0.000027
+      text: Confirm, "Okay, a Small pizza is $12.99. To customize your order, would you like to add Stuffed Crust or any additional toppings? We also offer Sides and Beverages."
+
+  [136/240] score=0 relevant=False type=knowledge_fact node=3.2.2.3 | Tokens: 310 in, 12 out | Cost: $0.000027
+      text: Mario's Pizza offers a Medium size pizza for $15.99, which customers can customize as a 'Build-Your-Own' or select from 'Specialty' options.
+
+  [137/240] score=0 relevant=False type=instruction node=3.2.3.1 | Tokens: 348 in, 12 out | Cost: $0.000030
+      text: Confirm if these ingredients (peppers, mushrooms, onions, olives, tomatoes) are desired as part of a specialty pizza or as individual additions to a Build-Your-Own pizza. If adding to a Build-Your-Own, inform the customer: 'Each additional topping contributes to the final price, which is tiered based on the pizza size you choose, either Small or Medium.'
+
+  [138/240] score=0 relevant=False type=instruction node=3.2.3 | Tokens: 306 in, 12 out | Cost: $0.000027
+      text: Ask if you're looking for a pre-designed combination of vegetables on your pizza, or if you'd prefer to build your own custom vegetarian pizza with specific toppings.
+
+  [139/240] score=0 relevant=False type=title node=3.2.3.1 | Tokens: 283 in, 12 out | Cost: $0.000025
+      text: Ingredients: Peppers, mushrooms, onions, olives, tomatoes.
+
+  [140/240] score=0 relevant=False type=knowledge_fact node=3.2.2.3 | Tokens: 321 in, 12 out | Cost: $0.000028
+      text: A Medium pizza priced at $15.99 meets the $15.00 minimum order value required for delivery. This item also presents opportunities for upsells such as Stuffed Crust, Additional Toppings, or Garlic Bread with Cheese.
+
+  [141/240] score=0 relevant=False type=title node=3.2.3 | Tokens: 275 in, 12 out | Cost: $0.000024
+      text: Veggie Supreme
+
+  [142/240] score=0 relevant=False type=knowledge_fact node=3.2.3 | Tokens: 309 in, 12 out | Cost: $0.000027
+      text: Customers can customize their Veggie Supreme by adding extra toppings or choosing a stuffed crust, or they can opt for a completely personalized vegetarian pizza through our 'Build-Your-Own' option.
+
+  [143/240] score=0 relevant=False type=knowledge_fact node=3.2.3.1 | Tokens: 314 in, 12 out | Cost: $0.000027
+      text: Peppers, mushrooms, onions, olives, and tomatoes are available as ingredients for freshly prepared pizzas, including Build-Your-Own options, which have a price tiering structure based on size (Small, Medium).
+
+  [144/240] score=0 relevant=False type=knowledge_fact node=3.2.3.1 | Tokens: 326 in, 12 out | Cost: $0.000028
+      text: Peppers, mushrooms, onions, olives, and tomatoes are included as standard ingredients in our Specialty Pizzas. For Build-Your-Own pizzas, these are available as toppings, which may incur an additional charge, similar to other 'Additional Toppings' upsell options.
+
+  [145/240] score=0 relevant=False type=title node=3.2.3.2 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Small – $11.99
+
+  [146/240] score=0 relevant=False type=instruction node=3.2.3.2 | Tokens: 316 in, 12 out | Cost: $0.000027
+      text: Confirm: "Alright, a Small pizza for $11.99. Would you like to upgrade that to a Stuffed Crust, or perhaps add some Garlic Bread with Cheese or a beverage to go with it?"
+
+  [147/240] score=0 relevant=False type=instruction node=3.2.3.2 | Tokens: 338 in, 12 out | Cost: $0.000029
+      text: If the customer's total order for delivery is less than $15.00 with just this Small pizza, state: "Just a friendly reminder, for delivery, there's a $15.00 minimum order. Adding some extra toppings, a side, or a beverage will help you meet that for delivery."
+
+  [148/240] score=0 relevant=False type=instruction node=3.2.3.1 | Tokens: 355 in, 12 out | Cost: $0.000030
+      text: Suggest an upsell or address potential concerns. For example, 'Would you like to add some extra cheese to that, or perhaps a side of our delicious Garlic Bread with Cheese with your order?' If a customer expresses concern about specific ingredients or potential allergies, state: 'Our freshly prepared pizzas are made to order. Can I provide more detail on any specific ingredient to ensure your order is perfect and meets your needs?'
+
+  [149/240] score=0 relevant=False type=knowledge_fact node=3.2.3.2 | Tokens: 319 in, 12 out | Cost: $0.000028
+      text: The base price for any Small pizza, whether it's a Build-Your-Own or a Specialty option, is $11.99. Customization choices such as additional toppings or a Stuffed Crust would be priced separately.
+
+  [150/240] score=0 relevant=False type=knowledge_fact node=3.2.3.2 | Tokens: 320 in, 12 out | Cost: $0.000028
+      text: For delivery orders, a $15.00 minimum order value is required. A single Small pizza at $11.99 does not meet this threshold, meaning customers must add other items like sides or beverages to qualify for delivery.
+
+  [151/240] score=0 relevant=False type=title node=3.2.3.3 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Medium – $14.99
+
+  [152/240] score=0 relevant=False type=knowledge_fact node=3.2.3.3 | Tokens: 299 in, 12 out | Cost: $0.000026
+      text: The Medium pizza costs $14.99 and is categorized under Mario's Pizza's size-based price tiering structure.
+
+  [153/240] score=0 relevant=False type=instruction node=3.2.3.3 | Tokens: 390 in, 12 out | Cost: $0.000033
+      text: Mention, "A Medium pizza is priced at $14.99." Then, ask, "Would you like to upgrade to a Stuffed Crust, or add any extra toppings to customize your pizza?" If the customer is ordering for delivery and only selects the Medium pizza, state, "Please note that for delivery, there's a $15.00 minimum order. Your Medium pizza is $14.99, so you'd need to add one more item, perhaps a beverage or a side like Garlic Bread with Cheese, to meet the minimum for delivery."
+
+  [154/240] score=0 relevant=False type=knowledge_fact node=3.2.3.3 | Tokens: 332 in, 12 out | Cost: $0.000028
+      text: A Medium pizza at $14.99 does not meet the $15.00 minimum order requirement for delivery. Customers requesting delivery for a Medium pizza must add at least $0.01 worth of additional items (e.g., sides, beverages, extra toppings) to qualify.
+
+  [155/240] score=0 relevant=False type=title node=3.2.4 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Meat Lovers
+
+  [156/240] score=0 relevant=False type=instruction node=3.2.4 | Tokens: 311 in, 12 out | Cost: $0.000027
+      text: Ask, "Are you looking for a classic combination of meats, or would you prefer something with a specific type of meat or flavor profile?" to help narrow down their preference within the Meat Lovers category.
+
+  [157/240] score=0 relevant=False type=knowledge_fact node=3.2.4 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: Meat Lovers pizzas are considered a Specialty Pizza, which means they feature a pre-arranged selection of meats, offering a convenient choice compared to building a custom pizza.
+
+  [158/240] score=0 relevant=False type=instruction node=3.2.3.3 | Tokens: 318 in, 12 out | Cost: $0.000027
+      text: Confirm the Medium pizza is priced at $14.99 and ask, "Would you like to make that a Stuffed Crust, which is an upsell option, or add any Additional Toppings to customize it further?"
+
+  [159/240] score=0 relevant=False type=title node=3.2.4.1 | Tokens: 282 in, 12 out | Cost: $0.000025
+      text: Ingredients: Pepperoni, sausage, bacon, ham.
+
+  [160/240] score=0 relevant=False type=knowledge_fact node=3.2.4.1 | Tokens: 323 in, 12 out | Cost: $0.000028
+      text: Pepperoni, sausage, bacon, and ham are available as 'additional toppings' for any 'Build-Your-Own' pizza, which is a 'Core Revenue Driver' for Mario's Pizza and offers 'Moderate' price sensitivity with multiple price points.
+
+  [161/240] score=0 relevant=False type=title node=3.2.4.2 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Small – $13.99
+
+  [162/240] score=0 relevant=False type=instruction node=3.2.4.1 | Tokens: 326 in, 12 out | Cost: $0.000028
+      text: Ask the customer if they have any allergies or specific dietary preferences regarding these meat toppings like pepperoni, sausage, bacon, or ham, as all our pizzas are freshly prepared. If these don't meet their needs, we can explore our Specialty Pizzas or other topping options.
+
+  [163/240] score=0 relevant=False type=knowledge_fact node=3.2.4.1 | Tokens: 321 in, 12 out | Cost: $0.000028
+      text: Ingredients such as pepperoni, sausage, bacon, and ham are components of our 'freshly prepared pizzas,' which carry 'Safety / Liability Risks' related to 'potential allergy issues.' Always be prepared to note customer dietary requests or concerns about specific ingredients.
+
+  [164/240] score=0 relevant=False type=instruction node=3.2.4 | Tokens: 313 in, 12 out | Cost: $0.000027
+      text: Suggest, "All our Meat Lovers pizzas are available in Small and Medium sizes, and you can always add a Stuffed Crust for an extra charge or additional toppings if you'd like to customize it further."
+
+  [165/240] score=0 relevant=False type=instruction node=3.2.4.2 | Tokens: 310 in, 12 out | Cost: $0.000027
+      text: Confirm, "Alright, a Small pizza is $13.99. Would you like to upgrade to our Stuffed Crust, or add any additional toppings to customize your pizza further?"
+
+  [166/240] score=0 relevant=False type=knowledge_fact node=3.2.4 | Tokens: 304 in, 12 out | Cost: $0.000026
+      text: All Meat Lovers pizzas are offered in both Small and Medium sizes, and customers can choose to upgrade with a Stuffed Crust or add additional toppings for an extra charge.
+
+  [167/240] score=0 relevant=False type=instruction node=3.2.4.1 | Tokens: 319 in, 12 out | Cost: $0.000028
+      text: Suggest adding pepperoni, sausage, bacon, or ham as a topping for your Build-Your-Own pizza to personalize your order. Remember, you can also enhance your pizza with a Stuffed Crust or a side of Garlic Bread with Cheese.
+
+  [168/240] score=0 relevant=False type=knowledge_fact node=3.2.4.2 | Tokens: 305 in, 12 out | Cost: $0.000026
+      text: The Small pizza is priced at $13.99. Its price can be increased by adding Upsell Potential Areas such as Stuffed Crust or Additional Toppings.
+
+  [169/240] score=0 relevant=False type=instruction node=3.2.4.2 | Tokens: 319 in, 12 out | Cost: $0.000028
+      text: Mention, "Please note, if this order is for delivery, there's a $15 minimum. Would you like to add a side like Garlic Bread with Cheese or a beverage to complete your meal or meet the delivery minimum?"
+
+  [170/240] score=0 relevant=False type=knowledge_fact node=3.2.4.2 | Tokens: 324 in, 12 out | Cost: $0.000028
+      text: A single Small pizza at $13.99 does not meet the $15.00 minimum order requirement for delivery. To qualify for delivery, customers must add items like Sides or Beverages to reach or exceed the $15.00 threshold.
+
+  [171/240] score=0 relevant=False type=instruction node=3.2.4.3 | Tokens: 353 in, 12 out | Cost: $0.000030
+      text: Confirm, "Okay, so that's a Medium pizza for $16.99." Suggest, "Would you like to customize your pizza with a Stuffed Crust or any Additional Toppings, or perhaps add a side like our Garlic Bread with Cheese?" Mention, "This order already meets our $15.00 minimum for delivery, and we deliver within a 10 km radius."
+
+  [172/240] score=0 relevant=False type=title node=3.2.4.3 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Medium – $16.99
+
+  [173/240] score=0 relevant=False type=instruction node=3.2.4.3 | Tokens: 351 in, 12 out | Cost: $0.000030
+      text: Confirm the customer's choice: "Okay, so that's a Medium pizza for $16.99. Would you like to add Stuffed Crust for an extra charge, or perhaps some Garlic Bread with Cheese to go with that?" If their order is for delivery, mention, "Just to confirm, this Medium pizza already meets our $15.00 minimum for delivery."
+
+  [174/240] score=0 relevant=False type=knowledge_fact node=3.2.4.3 | Tokens: 315 in, 12 out | Cost: $0.000027
+      text: The price for a Medium pizza is $16.99. This value exceeds the $15.00 minimum order requirement for delivery services ($15.00), making it eligible on its own.
+
+  [175/240] score=0 relevant=False type=instruction node=3.3 | Tokens: 296 in, 12 out | Cost: $0.000026
+      text: Ask, "Are you looking for something light, a savory addition, or a refreshing beverage to go with your pizza?"
+
+  [176/240] score=0 relevant=False type=knowledge_fact node=3.2.4.3 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: Pizza pricing is size-based, with a Medium pizza priced at $16.99. Fulfillment options include delivery within a 10 km radius or in-person pickup.
+
+  [177/240] score=0 relevant=False type=knowledge_fact node=3.3 | Tokens: 301 in, 12 out | Cost: $0.000026
+      text: Items within this category include Garlic Bread with Cheese, which is listed as an upsell potential area, and various beverages, which are secondary revenue drivers.
+
+  [178/240] score=0 relevant=False type=title node=3.3 | Tokens: 273 in, 12 out | Cost: $0.000024
+      text: Sides
+
+  [179/240] score=0 relevant=False type=instruction node=3.3 | Tokens: 306 in, 12 out | Cost: $0.000027
+      text: Suggest, "To help me recommend the perfect side, are you thinking of something to share, or a single serving item like our Garlic Bread with Cheese or a drink?"
+
+  [180/240] score=0 relevant=False type=knowledge_fact node=3.3 | Tokens: 301 in, 12 out | Cost: $0.000026
+      text: Customers placing a delivery order can use items from the 'Sides' category to help meet the $15.00 minimum order requirement for delivery.
+
+  [181/240] score=0 relevant=False type=title node=3.3.1 | Tokens: 281 in, 12 out | Cost: $0.000025
+      text: Garlic Bread – $4.99
+
+  [182/240] score=0 relevant=False type=instruction node=3.3.1 | Tokens: 323 in, 12 out | Cost: $0.000028
+      text: Ask, 'Would you like to add our Garlic Bread for $4.99? We also have a range of other sides and beverages, or you could customize a Build-Your-Own Pizza or choose from our Specialty Pizzas to complete your meal.'
+
+  [183/240] score=0 relevant=False type=instruction node=3.3.1 | Tokens: 337 in, 12 out | Cost: $0.000029
+      text: Confirm, 'Just to let you know, if this is for delivery, there is a $15.00 minimum order. If your current total is below $15.00, we can help you add a Small Build-Your-Own Pizza or any other sides or beverages to reach the minimum for delivery.'
+
+  [184/240] score=0 relevant=False type=knowledge_fact node=3.3.1 | Tokens: 300 in, 12 out | Cost: $0.000026
+      text: Garlic Bread is priced at $4.99 and counts towards the $15.00 minimum order requirement for all delivery transactions.
+
+  [185/240] score=0 relevant=False type=instruction node=3.3.2 | Tokens: 346 in, 12 out | Cost: $0.000030
+      text: Mention that if the customer's current order for delivery is below the $15.00 minimum, the Garlic Bread with Cheese for $5.99 can help them reach the eligibility threshold. For example: 'Just a reminder, if your delivery order is currently under $15, adding the Garlic Bread with Cheese could help you meet the minimum for delivery.'
+
+  [186/240] score=0 relevant=False type=knowledge_fact node=3.3.1 | Tokens: 334 in, 12 out | Cost: $0.000029
+      text: As a 'Side,' Garlic Bread can be fulfilled via Pickup or Delivery. Delivery is available within a 10 km radius and during operating hours (Monday – Sunday: 11:00 AM – 10:00 PM), provided the $15.00 minimum order is met.
+
+  [187/240] score=0 relevant=False type=title node=3.3.2 | Tokens: 283 in, 12 out | Cost: $0.000025
+      text: Garlic Bread with Cheese – $5.99
+
+  [188/240] score=0 relevant=False type=knowledge_fact node=3.3.3 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: Mario's Pizza offers Chicken Wings in an 8-piece serving, priced at $9.99, which is classified as a secondary revenue driver alongside other sides and beverages.
+
+  [189/240] score=0 relevant=False type=title node=3.4 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Beverages
+
+  [190/240] score=0 relevant=False type=instruction node=3.3.2 | Tokens: 328 in, 12 out | Cost: $0.000028
+      text: Suggest adding our Garlic Bread with Cheese for $5.99 as a perfect side to any pizza. For example, say: 'Would you like to add our delicious Garlic Bread with Cheese for just $5.99? It's a great complement to any pizza order.'
+
+  [191/240] score=0 relevant=False type=knowledge_fact node=3.3.2 | Tokens: 292 in, 12 out | Cost: $0.000025
+      text: The Garlic Bread with Cheese is priced at $5.99 and is available as a side item.
+
+  [192/240] score=0 relevant=False type=knowledge_fact node=3.3.2 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: For delivery orders, the $5.99 cost of Garlic Bread with Cheese contributes directly to fulfilling the $15.00 minimum order value requirement.
+
+  [193/240] score=0 relevant=False type=instruction node=3.3.3 | Tokens: 315 in, 12 out | Cost: $0.000027
+      text: Confirm, "You'd like the Chicken Wings (8 pcs) for $9.99. Would you also be interested in our Garlic Bread with Cheese for a perfect side, or perhaps a refreshing beverage?"
+
+  [194/240] score=0 relevant=False type=instruction node=3.3.3 | Tokens: 336 in, 12 out | Cost: $0.000029
+      text: If the customer's total order, including the Chicken Wings, is less than $15.00 and they request delivery, inform them, "For delivery, we have a minimum order of $15.00. Would you like to add a Small Specialty Pizza or another side to meet the minimum?"
+
+  [195/240] score=0 relevant=False type=title node=3.3.3 | Tokens: 284 in, 12 out | Cost: $0.000025
+      text: Chicken Wings (8 pcs) – $9.99
+
+  [196/240] score=0 relevant=False type=knowledge_fact node=3.4 | Tokens: 299 in, 12 out | Cost: $0.000026
+      text: Any beverage purchase contributes to the order total, which can help meet the $15.00 minimum order value required for delivery eligibility.
+
+  [197/240] score=0 relevant=False type=knowledge_fact node=3.3.3 | Tokens: 307 in, 12 out | Cost: $0.000027
+      text: The $9.99 cost of the Chicken Wings (8 pcs) directly contributes towards meeting the mandatory $15.00 minimum order value required for all delivery services.
+
+  [198/240] score=0 relevant=False type=instruction node=3.4 | Tokens: 292 in, 12 out | Cost: $0.000025
+      text: Ask if the customer would like to add any beverages to their order, confirming their interest in this category.
+
+  [199/240] score=0 relevant=False type=instruction node=3.4 | Tokens: 306 in, 12 out | Cost: $0.000027
+      text: If a customer is considering beverages for a delivery order, mention that the value of any beverages chosen will contribute to the $15.00 minimum order requirement for delivery.
+
+  [200/240] score=0 relevant=False type=instruction node=3.4.1 | Tokens: 330 in, 12 out | Cost: $0.000028
+      text: State: 'A Cola is available for $2.50.' If the customer's order for delivery is below $15.00, add: 'Adding a Cola for $2.50 can help you reach the $15.00 minimum required for delivery.'
+
+  [201/240] score=0 relevant=False type=title node=3.4.1 | Tokens: 279 in, 12 out | Cost: $0.000025
+      text: Cola – $2.50
+
+  [202/240] score=0 relevant=False type=knowledge_fact node=3.4 | Tokens: 289 in, 12 out | Cost: $0.000025
+      text: Beverages are offered as a secondary option alongside sides to complete your freshly prepared pizza order.
+
+  [203/240] score=0 relevant=False type=knowledge_fact node=3.4.1 | Tokens: 283 in, 12 out | Cost: $0.000025
+      text: The price for one Cola is $2.50.
+
+  [204/240] score=0 relevant=False type=instruction node=3.4.1 | Tokens: 314 in, 12 out | Cost: $0.000027
+      text: Ask directly, 'Would you like to add a Cola to your order for $2.50?' If they confirm, ask 'How many Colas would you like?' and ensure the correct quantity is added.
+
+  [205/240] score=0 relevant=False type=title node=3.4.2 | Tokens: 280 in, 12 out | Cost: $0.000025
+      text: Diet Cola – $2.50
+
+  [206/240] score=0 relevant=False type=knowledge_fact node=3.4.1 | Tokens: 291 in, 12 out | Cost: $0.000025
+      text: Cola is priced at $2.50, and this amount contributes to the total order value.
+
+  [207/240] score=0 relevant=False type=instruction node=3.4.2 | Tokens: 308 in, 12 out | Cost: $0.000027
+      text: Suggest: 'A Diet Cola is $2.50. Many customers also enjoy our Garlic Bread with Cheese as a side. Would you like to add one to your order?'
+
+  [208/240] score=0 relevant=False type=instruction node=3.4.2 | Tokens: 339 in, 12 out | Cost: $0.000029
+      text: Inform the customer: 'For delivery orders, there is a $15.00 minimum. If your current total, including the Diet Cola, is less than $15.00, I can suggest adding one of our Specialty Pizzas or some extra toppings to your Build-Your-Own pizza to meet the delivery requirement.'
+
+  [209/240] score=0 relevant=False type=knowledge_fact node=3.4.2 | Tokens: 284 in, 12 out | Cost: $0.000025
+      text: The price for a Diet Cola is $2.50.
+
+  [210/240] score=0 relevant=False type=knowledge_fact node=3.4.2 | Tokens: 290 in, 12 out | Cost: $0.000025
+      text: Diet Cola purchases contribute to the $15.00 minimum order required for delivery service.
+
+  [211/240] score=0 relevant=False type=title node=3.4.3 | Tokens: 279 in, 12 out | Cost: $0.000025
+      text: Sprite – $2.50
+
+  [212/240] score=0 relevant=False type=instruction node=3.4.3 | Tokens: 339 in, 12 out | Cost: $0.000029
+      text: Confirm 'Sprite' for $2.50. If the customer is ordering for delivery and their current total is below $15.00, politely suggest, 'To meet our $15.00 minimum for delivery, would you like to add one of our specialty pizzas or perhaps some extra toppings to your order?'
+
+  [213/240] score=0 relevant=False type=instruction node=3.4.3 | Tokens: 329 in, 12 out | Cost: $0.000028
+      text: If the customer asks about availability or pickup/delivery times for beverages, state that 'Sprite' is available for pickup or delivery from 11:00 AM to 10:00 PM, Monday through Sunday. If they prefer pickup, confirm their name for the order.
+
+  [214/240] score=0 relevant=False type=knowledge_fact node=3.4.3 | Tokens: 303 in, 12 out | Cost: $0.000026
+      text: For delivery orders, 'Sprite' contributes to the $15.00 minimum order value required for delivery service within our 10 km delivery radius.
+
+  [215/240] score=0 relevant=False type=knowledge_fact node=3.4.3 | Tokens: 312 in, 12 out | Cost: $0.000027
+      text: Sprite is priced at $2.50 and is available for order during our operating hours, which are Monday through Sunday, 11:00 AM to 10:00 PM.
+
+  [216/240] score=0 relevant=False type=title node=4 | Tokens: 274 in, 12 out | Cost: $0.000024
+      text: Ordering Options
+
+  [217/240] score=0 relevant=False type=instruction node=4 | Tokens: 342 in, 12 out | Cost: $0.000029
+      text: Ask: "Are you planning to pick up your order or would you like it delivered?" If for delivery, state: "Confirm your full address so I can check our delivery radius. Please note, there is a $15 minimum order for all deliveries." If for pickup, ask: "What name can I put the order under for pickup?"
+
+  [218/240] score=0 relevant=False type=instruction node=4 | Tokens: 344 in, 12 out | Cost: $0.000029
+      text: Suggest: "Now, for your order, are you interested in one of our popular Specialty Pizzas, or would you prefer to Build-Your-Own with specific toppings?" Mention: "We also offer a selection of delicious Sides and various Beverages. Don't forget you can add a Stuffed Crust to any pizza or try our Garlic Bread with Cheese!"
+
+  [219/240] score=0 relevant=False type=instruction node=4.1 | Tokens: 329 in, 12 out | Cost: $0.000028
+      text: If the customer's address falls outside our 10 km delivery radius, offer them the option to place an order for pickup instead. If their order total is currently below the $15.00 minimum for delivery, suggest adding items like sides or beverages to meet the requirement.
+
+  [220/240] score=0 relevant=False type=title node=4.1 | Tokens: 273 in, 12 out | Cost: $0.000024
+      text: Delivery
+
+  [221/240] score=1 relevant=False type=knowledge_fact node=4.1 | Tokens: 306 in, 12 out | Cost: $0.000027
+      text: Customers can place orders for delivery during our fixed operating hours, which are Monday through Sunday, from 11:00 AM to 10:00 PM.
+
+  [222/240] score=0 relevant=False type=knowledge_fact node=4 | Tokens: 341 in, 12 out | Cost: $0.000029
+      text: For "Delivery" orders, a minimum value of $15.00 is required, and service is limited to a 10 km radius. All pizzas are available in "Small" and "Medium" sizes, and customers can enhance their order with "Stuffed Crust", "Additional Toppings", or "Garlic Bread with Cheese."
+
+  [223/240] score=0 relevant=False type=knowledge_fact node=4 | Tokens: 330 in, 12 out | Cost: $0.000028
+      text: Customers can place orders for either "Delivery" or "Pickup" from 11:00 AM to 10:00 PM daily. Our core offerings include "Build-Your-Own" and "Specialty" pizzas, supplemented by "Sides" and "Beverages."
+
+  [224/240] score=0 relevant=False type=instruction node=4.1 | Tokens: 313 in, 12 out | Cost: $0.000027
+      text: Ask the customer for their full delivery address to verify if they are within our 10 km delivery radius, and inform them that a $15.00 minimum order is required for all delivery services.
+
+  [225/240] score=0 relevant=False type=instruction node=4.1.1 | Tokens: 343 in, 12 out | Cost: $0.000029
+      text: Suggest adding items to reach the $15.00 delivery minimum by saying, 'To meet our $15.00 minimum for delivery, many customers enjoy adding a delicious Stuffed Crust to their pizza, or perhaps some flavorful Garlic Bread with Cheese, or even an extra side or beverage. Would you like to consider any of these options?'
+
+  [226/240] score=0 relevant=False type=title node=4.1.1 | Tokens: 285 in, 12 out | Cost: $0.000025
+      text: Delivery is available within a 10 km radius of the restaurant.
+
+  [227/240] score=0 relevant=False type=instruction node=4.1.2 | Tokens: 328 in, 12 out | Cost: $0.000028
+      text: Mention: "For delivery, there is a minimum order of $15.00. Your current order is [quote current total]. Would you like to add something to reach the minimum, perhaps a Garlic Bread with Cheese, or maybe a Stuffed Crust on your pizza?"
+
+  [228/240] score=0 relevant=False type=knowledge_fact node=4.1.1 | Tokens: 304 in, 12 out | Cost: $0.000026
+      text: All delivery orders require a minimum order value of $15.00, which can be achieved through any combination of freshly prepared pizzas, sides, or beverages.
+
+  [229/240] score=0 relevant=False type=knowledge_fact node=4.1 | Tokens: 302 in, 12 out | Cost: $0.000026
+      text: The restaurant's delivery service operates within a 10 km radius, and all delivery orders require a minimum value of $15.00.
+
+  [230/240] score=0 relevant=False type=instruction node=4.1.1 | Tokens: 353 in, 12 out | Cost: $0.000030
+      text: Ask the customer for their full delivery address to confirm it is within our 10 km delivery radius. If the address is outside the radius or the current order is below the $15.00 minimum for delivery, offer, 'We can certainly prepare your order for pickup here at Mario's Pizza, available from 11:00 AM to 10:00 PM today.'
+
+  [231/240] score=0 relevant=False type=knowledge_fact node=4.1.1 | Tokens: 289 in, 12 out | Cost: $0.000025
+      text: Delivery service is available only within a 10 km radius of Mario's Pizza.
+
+  [232/240] score=0 relevant=False type=title node=4.1.2 | Tokens: 283 in, 12 out | Cost: $0.000025
+      text: Minimum order for delivery: $15.00.
+
+  [233/240] score=0 relevant=False type=instruction node=4.1.2 | Tokens: 340 in, 12 out | Cost: $0.000029
+      text: Confirm the customer's order total if they request delivery, and if it's below $15.00, politely state: 'For delivery, we do have a minimum order of $15.00. Would you like to add a side like garlic bread with cheese, or perhaps a beverage to reach the minimum?'
+
+  [234/240] score=0 relevant=False type=knowledge_fact node=4.1.2 | Tokens: 295 in, 12 out | Cost: $0.000026
+      text: A minimum order value of $15.00 is strictly required for all delivery orders to be eligible for fulfillment.
+
+  [235/240] score=1 relevant=False type=knowledge_fact node=4.1.2 | Tokens: 335 in, 12 out | Cost: $0.000029
+      text: Delivery is geographically restricted to a 10 km radius and time-restricted to our operating hours, Monday – Sunday, 11:00 AM – 10:00 PM. Orders placed outside these parameters, even if they meet the $15.00 minimum, must default to pickup.
+
+  [236/240] score=1 relevant=False type=title node=4.2.1 | Tokens: 282 in, 12 out | Cost: $0.000025
+      text: Customers must provide their name when placing a pickup order.
+
+  [237/240] score=0 relevant=False type=instruction node=4.2.1 | Tokens: 358 in, 12 out | Cost: $0.000030
+      text: Confirm: "Just to clarify, will this order be for pickup or would you prefer delivery?" If they prefer delivery, explain: "For delivery, there is a $15.00 minimum order, and we deliver within a 10 km radius. If your location is outside this radius or your order doesn't meet the minimum, pickup is available anytime until we close at 10:00 PM tonight."
+
+  [238/240] score=0 relevant=False type=knowledge_fact node=4.2.1 | Tokens: 309 in, 12 out | Cost: $0.000027
+      text: For pickup orders, the customer's name is essential for linking to their specific order details, including any Build-Your-Own pizza customizations, to ensure accuracy and proper identification upon collection.
+
+  [239/240] score=0 relevant=False type=instruction node=4.2.1 | Tokens: 335 in, 12 out | Cost: $0.000029
+      text: Ask: "To ensure we hand you the correct order efficiently when you arrive, could I please get a name for this pickup order?" Then, suggest: "While you're picking up, you might enjoy adding some Garlic Bread with Cheese or upgrading your pizza with our Stuffed Crust for an even better experience!"
+
+  [240/240] score=0 relevant=False type=knowledge_fact node=4.2.1 | Tokens: 320 in, 12 out | Cost: $0.000028
+      text: Mario's Pizza operates from 11:00 AM to 10:00 PM daily for pickup orders. There is no minimum order value required for pickup orders, unlike the $15.00 minimum for delivery.
+
+────────────────────────────────────────
+RELEVANT CHUNKS SELECTED (1):
+────────────────────────────────────────
+
+  [1] type=knowledge_fact  node=2.1  score=9
+      text: All order fulfillment, including both delivery and pickup options, is exclusively available within our fixed operating hours of 11:00 AM to 10:00 PM daily.
+
+────────────────────────────────────────
+FULL PROMPT SENT TO LLM:
+────────────────────────────────────────
+You are **Mario's Pizza** — a Order Taker / Receptionist for a Pizza Quick-Service Restaurant.
+Your goal is to serve as a helpful Order Receptionist.
+
+=== KNOWLEDGE CONTEXT (retrieved from the business knowledge base) ===
+[Context #1 rank 1 — knowledge_fact from node 2.1 (Score: 9)]
+All order fulfillment, including both delivery and pickup options, is exclusively available within our fixed operating hours of 11:00 AM to 10:00 PM daily.
+=== END KNOWLEDGE CONTEXT ===
+
+=== CONVERSATION HISTORY ===
+CUSTOMER: can i buy drink and pizza but low price
+AGENT: Hello! Welcome to Mario's Pizza.
+
+Our lowest-priced pizza is the Small 10-inch for $9.99. We also have Cola available for $2.50.
+
+Please keep in mind that for delivery orders, there is a $15.00 minimum. We could add an item like our Garlic Bread with Cheese to help you reach that if needed
+CUSTOMER: ok lets buy it then
+AGENT: Okay, great! To confirm, that is one Small 10-inch pizza and one Cola.
+
+Will this be for pickup or delivery?
+
+Just a friendly reminder, your current total is $12.49, and for delivery, there's a $15.00 minimum order.
+CUSTOMER: pickup
+AGENT: Great, we'll get that ready for pickup.
+
+What time were you hoping to pick up your order? We are open until 10:00 PM tonight.
+=== END CONVERSATION HISTORY ===
+
+CUSTOMER'S CURRENT MESSAGE:
+"in 30 minutes"
+
+INSTRUCTIONS FOR YOUR RESPONSE:
+1. Answer the customer's question using ONLY the knowledge context above.
+2. Stay in character as a friendly, professional Order Taker / Receptionist.
+3. If the customer asks for an item, service, or feature (e.g. drinks, salads, delivery to a specific area) that is NOT explicitly mentioned in the context, you MUST politely inform them that it is currently unavailable or you don't have it.
+4. Do NOT use your general knowledge to assume what a Pizza Quick-Service Restaurant typically sells. If it's not in the context, it doesn't exist for this business.
+5. Keep answers concise but complete.
+6. Do NOT invent prices, menu items, or policies not present in the context.
+
+
+────────────────────────────────────────
+LLM ANSWER:
+────────────────────────────────────────
+Perfect! We will have that ready for you in 30 minutes.
+
+What name should I put on the order?
+────────────────────────────────────────
+ACCUMULATED USAGE AT END OF THIS TURN:
+────────────────────────────────────────
+  summary_model - In:      777 | Out:       81 | Think:        0 | Cost: $0.000083
+  model         - In:   300782 | Out:    11662 | Think:        0 | Cost: $0.026057
+  answer_model  - In:     6108 | Out:      206 | Think:     2820 | Cost: $0.022765
+  TOTAL                                                       | Cost: $0.048905
+────────────────────────────────────────
